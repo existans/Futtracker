@@ -1,4 +1,4 @@
-# Trading Company
+# Futtracker
 This project is a Java website written using Spring Boot.
 
 ## Requirements
