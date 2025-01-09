@@ -8,8 +8,8 @@ This project is a Java website written using Spring Boot.
 - JDK 21
 
 ## Installation
-1. Clone the Repository: git clone https://github.com/existans/Futtracker
-2. Create new database in postresSQL with name "Football"
+1. Clone the Repository: git clone https://github.com/existans/Futtracker;
+2. Create new database in postgresSQL with name "Football";
 3. Run Database Migrations: Use the provided SQL schema to create the necessary tables:
 
 CREATE TABLE team (
@@ -34,7 +34,7 @@ CREATE TABLE player (
     FOREIGN KEY (position_id) REFERENCES position(id) ON DELETE CASCADE
 );
 
-4. Open project in the IDE
-5. Add user and password to enviroment variables
-6. Package the project with Maven: mvn clean package
-7. Start the project and open it in a browser at http://localhost:8080
+4. Open project in the IDE;
+5. Add user and password to enviroment variables;
+6. Package the project with Maven: mvn clean package;
+7. Start the project and open it in a browser at http://localhost:8080.
